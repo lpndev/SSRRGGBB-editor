@@ -6,9 +6,26 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "format": "prettier --write . && eslint --fix .",
+    "lint": "prettier --check . && eslint ."
   },
   "dependencies": {
-    "astro": "^5.16.5"
+    "@astrojs/svelte": "^7.2.3",
+    "@tailwindcss/vite": "^4.1.18",
+    "astro": "^5.16.5",
+    "svelte": "^5.46.0",
+    "tailwindcss": "^4.1.18",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.2",
+    "eslint-plugin-astro": "^1.5.0",
+    "eslint-plugin-svelte": "^3.13.1",
+    "prettier": "^3.7.4",
+    "prettier-plugin-astro": "^0.14.1",
+    "prettier-plugin-organize-imports": "^4.3.0",
+    "prettier-plugin-svelte": "^3.4.0",
+    "prettier-plugin-tailwindcss": "^0.7.2"
   }
 }
