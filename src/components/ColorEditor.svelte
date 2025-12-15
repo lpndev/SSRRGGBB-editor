@@ -65,7 +65,7 @@
   }
 </script>
 
-<div class="flex min-h-screen flex-col items-center gap-6">
+<div class="flex min-h-screen flex-col items-center gap-4">
   <!-- Header -->
   <header class="flex flex-col items-center p-6">
     <h1 class="text-3xl font-semibold">SSRRGGBB Color Editor</h1>
@@ -185,7 +185,7 @@
 
   <!-- Footer -->
   <footer
-    class="mt-6 flex w-full flex-row flex-wrap items-center justify-center gap-2 bg-neutral-100 px-6 py-4"
+    class="mt-6 flex w-full flex-row flex-wrap items-center justify-center gap-2 bg-neutral-100 px-6 py-4 text-sm"
   >
     <p class="flex flex-row items-center gap-2">
       <span>Made with</span>
